@@ -1,5 +1,8 @@
 package main.java;
 
-public class ContaCorrente extends Conta{
+public class ContaPoupanca extends Conta{
 
+    public ContaPoupanca(Cliente cliente) {
+        super(cliente);
+    }
 }
